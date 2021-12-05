@@ -71,7 +71,9 @@ table {
 }
 
 footer {
-  width: 1600px;
+  position: relative;
+  top: 2100px;
+  width: 100%;
   height: 300px;
   background-color: purple;
   margin-top: 100%;

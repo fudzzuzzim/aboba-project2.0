@@ -3,7 +3,9 @@
 @import 'шаблоны';
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 footer{
-    width: 1600px;
+    position: relative;
+    top: 2100px;
+    width: 100%;
     height: 300px;
     background-color: purple;
     margin-top: 100%;
