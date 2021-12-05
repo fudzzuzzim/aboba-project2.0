@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,6 +52,88 @@ table {
   border-spacing: 0;
 }
 
-body {
-  background-color: rgba(0, 0, 0, 0);
+header {
+  position: relative;
+  height: 108px;
+  width: 100%;
+  background-color: #7C3766;
+}
+
+header .container__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container__header .title__header {
+  position: relative;
+  width: 196px;
+  height: 90px;
+  left: 26px;
+  top: 9px;
+  font-family: Audiowide;
+  color: white;
+  font-size: 64px;
+  line-height: 82px;
+  text-shadow: 0px 0px 108px #B87DBB;
+}
+
+header .container__header .navigation li {
+  display: inline-block;
+  padding: 40px 30px;
+  font-family: Audiowide;
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 0px 0px 10px #B87DBB;
+}
+
+header .container__header .navigation li a {
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+}
+
+header .container__header .navigation li a:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  bottom: 30px;
+  height: 0px;
+  width: 0px;
+  border-radius: 30px;
+  background-color: #B87DBB;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 0px 10px;
+          box-shadow: 0px 0px 10px;
+}
+
+header .container__header .navigation li a:hover:after {
+  height: 5px;
+  width: 100px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .container__header .input {
+  position: relative;
+  top: 41px;
+  right: 24px;
+  text-align: center;
+  border: rgba(255, 255, 255, 0);
+  border-radius: 30px;
+  background-color: #B87DBB;
+  height: 26px;
+  color: white;
+  -webkit-box-shadow: 0px 0px 10px #B87DBB;
+          box-shadow: 0px 0px 10px #B87DBB;
 }
