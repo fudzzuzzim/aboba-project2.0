@@ -9,7 +9,7 @@ body{
     background-image: url('../img/background.png');
     background-size: cover;
 }
-
+/*Саша*/
 main{
     position: relative;
 }
@@ -107,3 +107,73 @@ main{
     @extend %aboba_div;
     @extend %aboba_text;
 }
+/*Саша*/
+/*Максим*/
+header{
+	position: relative;
+	height: 108px;
+	width: 100%;
+	background-color: $colorOfheader;
+	.container__header{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		.title__header{
+			position: relative;
+			width: 196px;
+			height: 90px;
+			left: 26px;
+			top: 9px;
+			font-family: Audiowide;
+			color: white;
+			font-size: 64px;
+			line-height: 82px;
+			text-shadow: 0px 0px 108px $colorOfshadow;
+		}
+		.navigation li{
+			display: inline-block;
+			padding: 40px 30px;
+			font-family: Audiowide;
+			font-size: 36px;
+			font-weight: 400;
+			color: #fff;
+			text-shadow: 0px 0px 10px $colorOfshadow;
+			a{
+				text-decoration: none;
+				position: relative;
+				color: #fff;
+			}
+			a:after {
+				content: "";
+				position: absolute;
+				left:0px;
+				top: 40px;
+				bottom:30px;
+				height: 0px;
+				width: 0px;
+				border-radius: 30px;
+				background-color:$colorOfshadow;
+				transition: 0.3s;
+				box-shadow: 0px 0px 10px;
+			}
+			a:hover:after{
+				height: 5px;
+				width: 100px;
+				transition: 0.3s;
+			}
+		}
+		.input{
+			position: relative;
+			top: 41px;
+			right: 24px;
+			text-align: center;
+			border: rgba(255, 255, 255, 0);
+			border-radius: 30px;
+			background-color: $colorOfshadow;
+			height: 26px;
+			color: white;
+			box-shadow: 0px 0px  10px $colorOfshadow;
+		}
+	}
+}
+/*Максим*/
