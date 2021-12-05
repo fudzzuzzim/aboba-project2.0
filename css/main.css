@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,6 +52,98 @@ table {
   border-spacing: 0;
 }
 
-body {
+/*text settings in <main>*/
+.aboba .first_aboba_header, .aboba .first_aboba_text, .aboba_negr .aboba_negr_text, .main_aboba .main_aboba_header, .main_aboba .main_aboba_text, .sasha_aboba .sasha_aboba_text, .anonymus_army .jew_army, .Rickroll {
+  font-family: Audiowide;
+  font-variant: small-caps;
+  font-weight: 400;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+}
+
+/*div settings in <main> (position not included)*/
+.aboba, .aboba_negr, .main_aboba, .sasha_aboba, .anonymus_army, .Rickroll {
   background-color: rgba(0, 0, 0, 0);
+  border-radius: 121px;
+  border: 2px solid white;
+}
+
+body {
+  height: 4400px;
+  position: relative;
+  background-image: url("../img/background.png");
+  background-size: cover;
+}
+
+main {
+  position: relative;
+}
+
+.aboba {
+  position: absolute;
+  width: 553px;
+  height: 389px;
+  left: 26px;
+  top: 222px;
+}
+
+.aboba .first_aboba_text {
+  top: 300px;
+}
+
+.aboba_negr {
+  position: absolute;
+  width: 453px;
+  height: 506px;
+  left: 972px;
+  top: 130px;
+}
+
+.aboba_negr .negr_and_pivo {
+  position: absolute;
+  width: 251px;
+  height: 263px;
+  left: 123px;
+  top: 154px;
+}
+
+.main_aboba {
+  position: absolute;
+  width: 744px;
+  height: 562px;
+  left: 403px;
+  top: 803px;
+}
+
+.sasha_aboba {
+  position: absolute;
+  width: 678px;
+  height: 432px;
+  left: 140px;
+  top: 1786px;
+}
+
+.anonymus_army {
+  position: absolute;
+  width: 658px;
+  height: 628px;
+  left: 571px;
+  top: 2698px;
+}
+
+.anonymus_army .anonymus_army_img {
+  position: absolute;
+  width: 580px;
+  height: 332px;
+  left: 30px;
+  top: 200px;
+}
+
+.Rickroll {
+  position: absolute;
+  width: 658px;
+  height: 220px;
+  left: 571px;
+  top: 3700px;
 }

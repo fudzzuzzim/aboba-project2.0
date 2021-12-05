@@ -1,0 +1,16 @@
+/*text settings in <main>*/
+%aboba_text{
+    font-family: Audiowide;
+    font-variant: small-caps;
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+/*div settings in <main> (position not included)*/
+%aboba_div{
+    background-color: $invisible;
+    border-radius: 121px;
+    border: 2px solid white;
+}
