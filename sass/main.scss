@@ -1,6 +1,8 @@
 @import 'reset';
 @import 'color';
+@import 'шаблоны';
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+<<<<<<< HEAD
 <<<<<<< HEAD
 footer{
     width: 1600px;
@@ -45,6 +47,115 @@ footer{
     }
 }     
 =======
+=======
+
+body{
+    height: 4400px;
+    position: relative;
+    background-image: url('../img/background.png');
+    background-size: cover;
+}
+/*Саша*/
+main{
+    position: relative;
+}
+
+.aboba{
+    position: absolute;
+    width: 553px;
+    height: 389px;
+    left: 26px;
+    top: 222px;
+    @extend %aboba_div;
+    .first_aboba_header{
+        @extend %aboba_text;
+    }
+    .first_aboba_text{
+        top: 300px;
+        @extend %aboba_text;
+    }
+}
+
+.aboba_negr{
+    position: absolute;
+    width: 453px;
+    height: 506px;
+    left: 972px;
+    top: 130px;
+    @extend %aboba_div;
+    .aboba_negr_text{
+        @extend %aboba_text;
+    }
+    .negr_and_pivo{
+        position: absolute;
+        width: 251px;
+        height: 263px;
+        left: 123px;
+        top: 154px;
+    }
+    .aboba_negr_text{
+        @extend %aboba_text;
+    }
+}
+
+.main_aboba{
+    position: absolute;
+    width: 744px;
+    height: 562px;
+    left: 403px;
+    top: 803px;
+    @extend %aboba_div;
+    .main_aboba_header{
+        @extend %aboba_text;
+    }
+    .main_aboba_text{
+        @extend %aboba_text;
+    }
+}
+
+.sasha_aboba{
+    position: absolute;
+    width: 678px;
+    height: 432px;
+    left: 140px;
+    top: 1786px;
+    @extend %aboba_div;
+    .sasha_aboba_text{
+        @extend %aboba_text;
+    }
+}
+
+.anonymus_army{
+    position: absolute;
+    width: 658px;
+    height: 628px;
+    left: 571px;
+    top: 2698px;
+    @extend %aboba_div;
+    .anonymus_army_img{
+        position: absolute;
+        width: 580px;
+        height: 332px;
+        left: 30px;
+        top: 200px;
+    }
+    .jew_army{
+        @extend %aboba_text
+    }
+}
+
+.Rickroll{
+    position: absolute;
+    width: 658px;
+    height: 220px;
+    left: 571px;
+    top: 3700px;
+    @extend %aboba_div;
+    @extend %aboba_text;
+}
+/*Саша*/
+/*Максим*/
+>>>>>>> ed186eef1a536c62cc0bf103446a98280649ae67
 header{
 	position: relative;
 	height: 108px;
@@ -112,4 +223,8 @@ header{
 		}
 	}
 }
+<<<<<<< HEAD
 >>>>>>> 71de001c0180f00afffb2cba73d546d5b4e60042
+=======
+/*Максим*/
+>>>>>>> ed186eef1a536c62cc0bf103446a98280649ae67
