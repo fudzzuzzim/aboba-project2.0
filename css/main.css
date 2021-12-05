@@ -53,8 +53,23 @@ table {
   border-spacing: 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+/*text settings in <main>*/
+.aboba .first_aboba_header, .aboba .first_aboba_text, .aboba_negr .aboba_negr_text, .main_aboba .main_aboba_header, .main_aboba .main_aboba_text, .sasha_aboba .sasha_aboba_text, .anonymus_army .jew_army, .Rickroll {
+  font-family: Audiowide;
+  font-variant: small-caps;
+  font-weight: 400;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+}
+
+/*div settings in <main> (position not included)*/
+.aboba, .aboba_negr, .main_aboba, .sasha_aboba, .anonymus_army, .Rickroll {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 121px;
+  border: 2px solid white;
+}
+
 footer {
   width: 1600px;
   height: 300px;
@@ -100,23 +115,6 @@ footer button {
   top: 120px;
   background-color: white;
   color: purple;
-=======
-=======
-/*text settings in <main>*/
-.aboba .first_aboba_header, .aboba .first_aboba_text, .aboba_negr .aboba_negr_text, .main_aboba .main_aboba_header, .main_aboba .main_aboba_text, .sasha_aboba .sasha_aboba_text, .anonymus_army .jew_army, .Rickroll {
-  font-family: Audiowide;
-  font-variant: small-caps;
-  font-weight: 400;
-  font-size: 48px;
-  color: white;
-  text-align: center;
-}
-
-/*div settings in <main> (position not included)*/
-.aboba, .aboba_negr, .main_aboba, .sasha_aboba, .anonymus_army, .Rickroll {
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 121px;
-  border: 2px solid white;
 }
 
 body {
@@ -201,7 +199,6 @@ main {
 
 /*Саша*/
 /*Максим*/
->>>>>>> ed186eef1a536c62cc0bf103446a98280649ae67
 header {
   position: relative;
   height: 108px;
@@ -286,7 +283,6 @@ header .container__header .input {
   color: white;
   -webkit-box-shadow: 0px 0px 10px #B87DBB;
           box-shadow: 0px 0px 10px #B87DBB;
->>>>>>> 71de001c0180f00afffb2cba73d546d5b4e60042
 }
 
 /*Максим*/
