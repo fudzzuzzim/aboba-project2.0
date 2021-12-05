@@ -1,2 +1,45 @@
 @import 'reset';
 @import 'color';
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+footer{
+    width: 1600px;
+    height: 300px;
+    background-color: purple;
+    margin-top: 100%;
+    table{
+        position: relative;
+        color: white;
+        font-weight: 100%;
+        font-family: Audiowide;
+        left: 650px;
+        top: 200px;
+    }
+    .lol{
+        position: relative;
+        color: white;
+        font-family: Audiowide;
+        font-weight: 100%;
+        font-size: 60px;
+        bottom: 60px;
+        text-shadow: 0px 11px 20px white;
+    }
+    .rule{
+        position: relative;
+        color: white;
+        font-family: Audiowide;
+        font-weight: 100%;
+        font-size: 24px;
+        right: 700px;
+        top: 50px;
+    }
+    button{
+        position: relative;
+        padding: 10px 50px;
+        border-radius: 9px;
+        display: inline-block;
+        right: 1020px;
+        top: 120px;
+        background-color: white;
+        color: purple; 
+    }
+}     
